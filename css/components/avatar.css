@@ -1,0 +1,17 @@
+.avatar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar-wrapper {
+    text-align: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio and covers the specified dimensions */
+}
+

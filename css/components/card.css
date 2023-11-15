@@ -1,0 +1,26 @@
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0; /* Add margin for spacing between cards */
+}
+
+.card {
+  flex: 0 0 30%; /* Adjust the width of each card as needed */
+  padding: 10px; /* Adjust padding for internal spacing */
+  box-sizing: border-box; /* Include padding in the total width */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin: 10px 0;
+}
+
+.card img {
+  width: 100%; /* Make the image fill the container */
+  border-radius: 6px;
+}
+
+.card h3 {
+  margin-top: 10px; /* Add margin between the image and the title */
+  font-size: 25px; /* Adjust the font size as needed */
+  text-align: center;
+
+}
